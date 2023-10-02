@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ronaldola</title>
+    <style>
+        body {
+            display: flex;
+            background-color: #121212;
+            color: white
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p> Ronaldolamak istediğiniz fotoyu seçin </p>
+        <input id="upload" type="file" accept="image/*" />
+        <div>
+            <img style="margin-top: 5px;" id="ronaldolananImage" crossorigin="anonymous" />
+        </div>
+        <div style="margin-top: 5px;">
+            <span>Ronaldolama miktarı: </span>
+            <input type="range" min="0" max="20" value="0" step="1" class="ronaldolamaSlider" id="ronaldolamaMiktari" />
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
